@@ -1,7 +1,7 @@
 import random
-import kk
+import partitions
 
-arr = kk.random_sequence(100)
+arr = partitions.random_sequence(100)
 file = open('inputfile.txt', 'w')
 
 for i in arr:
