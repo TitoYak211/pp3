@@ -10,4 +10,4 @@ if len(sys.argv) > 1:
 
     file.close()
 
-    print(Karp.kk(arr))
+    print(Karp.kk(arr,0))

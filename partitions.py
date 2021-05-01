@@ -3,7 +3,7 @@ import math
 import sys
 
 # generate an array of random numbers 1 to n
-def random_sequence(n):
+def random_sequence(n, k):
     random.seed()
     arr = []
 
@@ -13,7 +13,7 @@ def random_sequence(n):
     return arr
 
 
-def kk(arr):
+def kk(arr, k):
     if len(arr) <= 2:
         return -1
 
