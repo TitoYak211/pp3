@@ -1,13 +1,3 @@
-import partitions as Karp
-import sys
+inputfile=$1
 
-if len(sys.argv) > 1:
-    arr = []
-
-    with open(sys.argv[1]) as file:
-        for i in file:
-            arr.append(int(i))
-
-    file.close()
-
-    print(Karp.kk(arr,0))
+python kk.py $inputfile

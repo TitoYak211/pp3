@@ -1,7 +1,7 @@
 import random
 import partitions
 
-arr = partitions.random_sequence(100)
+arr = partitions.random_sequence(100, 0)
 file = open('inputfile.txt', 'w')
 
 for i in arr:
